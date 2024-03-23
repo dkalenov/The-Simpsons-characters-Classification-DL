@@ -31,7 +31,7 @@ This model classifies characters with high accuracy for which sufficient trainin
 * Data preprocessing
 * Data augmentation
 * Python
-* Panda
+* Pandas
 * PIL
 * Matplotlib
 * Scikit-learn
