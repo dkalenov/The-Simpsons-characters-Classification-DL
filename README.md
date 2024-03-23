@@ -23,7 +23,7 @@ In the process of data preprocessing, the following actions were performed:
 
 These transformations improved the classification accuracy of the trained models and reduced the training time (on the model with the highest accuracy, the training time decreased by 10% compared to the same model trained on the original dataset).
 
-The highest image classification accuracy was obtained based on the ResNet152 model - about 98%. 
+The highest image classification accuracy was obtained based on the ResNet152 model - about 97%. 
 This model classifies characters with high accuracy for which sufficient training data has been collected. The model generally makes mistakes when classifying characters for which little data has been collected. To improve the model's accuracy, it is necessary to increase the amount of training data in small classes.
 
 ## Skills and tools 
