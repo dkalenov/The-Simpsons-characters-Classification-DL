@@ -15,7 +15,7 @@ In addition to building a neural network and assessing its quality, it is necess
 - write a code that will output 9 random images from the test with their actual and predicted classes;
 - study the classes in which the model most often makes mistakes.
 
-## Conclution
+## Conclusion
 
 In the process of data preprocessing, the following actions were performed:
 - Pre-balancing classes by removing the number of images in classes with large data content;
@@ -25,6 +25,10 @@ These transformations improved the classification accuracy of the trained models
 
 The highest image classification accuracy was obtained based on the ResNet152 model - about 97%. 
 This model classifies characters with high accuracy for which sufficient training data has been collected. The model generally makes mistakes when classifying characters for which little data has been collected. To improve the model's accuracy, it is necessary to increase the amount of training data in small classes.
+
+## Further development
+
+Train the model to recognize the facial features of real people and determine who they resemble with the characters from the animated series “The Simpsons”.
 
 ## Skills and tools 
 
@@ -38,4 +42,5 @@ This model classifies characters with high accuracy for which sufficient trainin
 * PyTorch
 
 ## Project status
-- [x] 
+- [x] Character classification model
+- [ ] Which characters do people resemble
